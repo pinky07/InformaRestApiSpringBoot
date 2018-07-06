@@ -1,0 +1,232 @@
+{
+	"info": {
+		"_postman_id": "c7635003-6930-462f-9f0a-15e1df9bc4ce",
+		"name": "Visitor-kiosk",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Facilities",
+			"description": "",
+			"item": [
+				{
+					"name": "http://localhost:8080/api/v1/facilities/5b3fda2c61b893472c48db37",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\r\n  \"facilityName\": \"facilityCreatedDate7/6/2018\"\r\n  \r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/facilities/5b3fda2c61b893472c48db37",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"facilities",
+								"5b3fda2c61b893472c48db37"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/v1/facilities/5b3fda2c61b893472c48db37",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\r\n  \"facilityName\": \"facilityCreatedDate7/6/2018\"\r\n  \r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/facilities/5b3fda2c61b893472c48db37",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"facilities",
+								"5b3fda2c61b893472c48db37"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/v1/facilities/5b3fda2c61b893472c48db37",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\r\n  \"facilityName\": \"facilityCreatedDate7/6/2018\"\r\n  \r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/facilities/5b3fda2c61b893472c48db37",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"facilities",
+								"5b3fda2c61b893472c48db37"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/v1/facilities/5b3fda2c61b893472c48db37",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\r\n  \"facilityName\": \"facilityCreatedDate7/6/2018\"\r\n  \r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/facilities/5b3fda2c61b893472c48db37",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"facilities",
+								"5b3fda2c61b893472c48db37"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/v1/facilities/",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\r\n  \"facilityName\": \"facilityCreatedDate7/6/2018\"\r\n  \r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/facilities/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"facilities",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/v1/facilities/5b3d203161b8933fb8aa21ff",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\r\n  \"facilityName\": \"facilityUpdated!!\"\r\n  \r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/facilities/5b3d203161b8933fb8aa21ff",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"facilities",
+								"5b3d203161b8933fb8aa21ff"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/api/v1/facilities/",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\r\n  \"facilityName\": \"seven\"\r\n  \r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/facilities/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"facilities",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
