@@ -9,7 +9,7 @@ import org.apache.commons.lang3.StringUtils;
 public class EntityNotFoundException extends Exception {
 
     public EntityNotFoundException(Class clazz, String... searchParamsMap) {
-        super(EntityNotFoundException.generateMessage(clazz.getSimpleName(), toMap(String.class, String.class, searchParamsMap)));
+        super(EntityNotFoundException.generateMessage(clazz.getSimpleName(), toMap(String.class, String.class, (Object) searchParamsMap)));
     }
 
     private static String generateMessage(String entity, Map<String, String> searchParams) {
