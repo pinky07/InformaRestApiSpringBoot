@@ -153,7 +153,7 @@ class ApiError {
 
     @Data
     @EqualsAndHashCode(callSuper = false)
-    @AllArgsConstructor
+    //@AllArgsConstructor
     class ApiValidationError extends ApiSubError {
         private String object;
         private String field;
