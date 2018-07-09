@@ -33,8 +33,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 			return new ApiInfoBuilder()
 					.title("REST API")
 					.description("Demo REST API using Spring Boot")
-					.contact(new Contact("Daniel Pacheco", "http://www.linkedin.com./in/bethmahler", "dpacheco@intellicentrics.com"))
-					.license("The IntelliCentrics")
+					.contact(new Contact("Daniel Pacheco", "http://www.linkedin.com./in/daniel-pacheco-626a755", "dpacheco@intellicentrics.com"))
+					.license("IntelliCentrics")
 					.licenseUrl("www.IntelliCentrics.com")
 					.build();
 		}
